@@ -8,3 +8,4 @@
 
 
 User.create(name: 'Trey', email:'tjennings343@gmail.com')
+Hotel.create(name: 'Tru', city: 'Tahlequah', state: 'Oklahoma', price: 90, phone_number: 9188714791, user_id: 1)
