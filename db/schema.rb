@@ -18,14 +18,6 @@ ActiveRecord::Schema.define(version: 2021_10_02_223115) do
     t.string "state"
     t.integer "price"
     t.integer "phone_number"
-    t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

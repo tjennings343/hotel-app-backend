@@ -6,8 +6,6 @@ class CreateHotels < ActiveRecord::Migration[6.1]
       t.string :state
       t.integer :price
       t.integer :phone_number
-      t.integer :user_id
-
       t.timestamps
     end
   end

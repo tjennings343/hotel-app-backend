@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.create(name: 'Trey', email:'tjennings343@gmail.com')
-Hotel.create(name: 'Tru', city: 'Tahlequah', state: 'Oklahoma', price: 90, phone_number: 9188714791, user_id: 1)
+Hotel.create(name: 'Tru', city: 'Tahlequah', state: 'Oklahoma', price: 90, phone_number: 9188714791)
+Hotel.create(name: 'Hilton', city: 'Savannah', state: 'Georgia', price: 120, phone_number: 9127215000)
